@@ -17,7 +17,13 @@ steps:
   displayName: 'Checkout repository including submodules'
   submodules: true
 
-- task: HugoBuildTask@0
+- task: HugoBuildTask@1
   displayName: 'Generate Hugo site'
   inputs:
     destination: '$(Build.ArtifactStagingDirectory)'
+
+- task: PublishPipelineArtifact@0
+  displayName: 'Publish Hugo site as artifact'
+  inputs:
+    artifactName: 'hugo-site'
+    targetPath: '$(Build.ArtifactStagingDirectory)'
