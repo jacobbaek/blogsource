@@ -1,4 +1,14 @@
 baseURL = "https://jacobbaek.github.io/"
 languageCode = "en-us"
-title = "JacobBaek's Site"
-theme = "coder-portfolio"
+title = "JacobBaek's Blog"
+#theme = "coder"
+theme = "jeffprod"
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
+
+publishDir = "jacobbaek.github.io"
