@@ -1,9 +1,8 @@
-[submodule "themes/coder-portfolio"]
-	path = themes/coder-portfolio
-	url = https://github.com/naro143/hugo-coder-portfolio.git
-[submodule "themes/hugo-coder"]
-	path = themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
-[submodule "themes/jeffprod"]
-	path = themes/jeffprod
-	url = https://github.com/Tazeg/hugo-blog-jeffprod.git
+[submodule "public"]
+	path = public
+	url = https://github.com/jacobbaek/jacobbaek.github.io.git
+	branch = master
+[submodule "themes/aether"]
+	path = themes/aether
+	url = https://github.com/josephhutch/aether.git
+	branch = master
