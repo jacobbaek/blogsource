@@ -28,6 +28,20 @@ steps:
     artifactName: 'hugo-site'
     targetPath: '$(Build.ArtifactStagingDirectory)'
 
+# - task: Bash@3
+#   inputs:
+#     filePath: 'build.sh'
 - task: Bash@3
   inputs:
-    filePath: 'build.sh'
+    targetType: 'inline'
+    script: |
+      # go to the public directory and add the changed files
+      cd public
+      git add .
+      
+      # Commit changes.
+      msg="Rebuilding site on `date`"
+      git commit -m "$msg"
+      
+      # Push changes to origin.
+      git push origin master
