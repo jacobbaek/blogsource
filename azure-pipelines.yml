@@ -27,3 +27,7 @@ steps:
   inputs:
     artifactName: 'hugo-site'
     targetPath: '$(Build.ArtifactStagingDirectory)'
+
+- task: Bash@3
+  inputs:
+    filePath: 'build.sh'
