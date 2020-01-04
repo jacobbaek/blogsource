@@ -1,17 +1,24 @@
 ---
 title: "Introduce"
-date: 2020-01-04T22:43:57+09:00
+date: 2020-01-04T23:50:52+09:00
 description: ""
 categories: []
 dropCap: true
 displayInMenu: false
 displayInList: true
-draft: true
+# draft: true
 resources:
 - name: featuredImage
   src: ""
   params:
     description: ""
 ---
-# introduce myself
-Jacob baek.
+# Who I am?
+
+Jacob Baek.
+I am working as a DevOps Engineer
+
+# What will be posted?
+
+Technical Contents
+ 
