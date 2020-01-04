@@ -1,6 +1,6 @@
 ---
-title: "Secondpage"
-date: 2019-09-12T23:18:19+09:00
+title: "Introduce"
+date: 2020-01-04T22:43:57+09:00
 description: ""
 categories: []
 dropCap: true
@@ -13,3 +13,5 @@ resources:
   params:
     description: ""
 ---
+# introduce myself
+Jacob baek.
