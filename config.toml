@@ -1,5 +1,6 @@
 baseURL = "https://jacobbaek.github.io/"
-languageCode = "en-us"
+languageCode = "ko-kr"
+defaultContentLanguage = "en-us"
 title = "Welcome to JacobBaek Page"
 theme = "aether"
 
